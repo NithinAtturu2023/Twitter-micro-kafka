@@ -1,0 +1,205 @@
+2023-10-04 19:02:37 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 20545 (/Users/nithinatturu/Desktop/Micro-Services/microservices-nithin/twitter-to-kafka-service/target/classes started by nithinatturu in /Users/nithinatturu/Desktop/Micro-Services/microservices-nithin)
+2023-10-04 19:02:37 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-04 19:02:37 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.335 seconds (process running for 0.632)
+2023-10-04 19:02:37 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Application Started
+2023-10-04 19:02:37 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, kafka, Elasticsearch]
+2023-10-04 19:02:37 [main] INFO  c.m.n.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, kafka, Elasticsearch]
+2023-10-04 19:02:37 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ipsum Fusce magna massa Lorem porttitor Java sed Maecenas libero libero sit
+2023-10-04 19:02:38 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text congue pulvinar dolor libero porttitor adipiscing purus Elasticsearch amet pulvinar purus pulvinar sit sit porttitor
+2023-10-04 19:02:39 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ipsum Fusce ultricies massa kafka Fusce malesuada lectus lectus
+2023-10-04 19:02:40 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem purus libero Fusce pulvinar magna magna Microservices magna consectetuer consectetuer purus sit amet
+2023-10-04 19:02:41 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text libero ipsum posuere Microservices dolor amet sed
+2023-10-04 19:02:42 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text dolor libero adipiscing purus purus purus Elasticsearch amet lectus pulvinar porttitor sit
+2023-10-04 19:02:43 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text magna sit ipsum Maecenas Java amet Lorem lectus consectetuer
+2023-10-04 19:02:44 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text elit consectetuer pulvinar elit ultricies Fusce Maecenas magna Java libero pulvinar libero Lorem dolor ipsum Lorem
+2023-10-04 19:02:45 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text libero sit sit libero ultricies Lorem sed adipiscing kafka malesuada pulvinar purus porttitor Maecenas consectetuer porttitor
+2023-10-04 19:02:46 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text purus elit Maecenas porttitor porttitor posuere congue kafka ipsum amet dolor adipiscing consectetuer magna
+2023-10-04 19:02:47 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem ultricies Fusce lectus adipiscing Java Fusce dolor lectus magna
+2023-10-04 19:02:48 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ultricies massa congue sit consectetuer Java consectetuer libero congue pulvinar sit
+2023-10-04 19:02:49 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text libero lectus massa ipsum libero Microservices congue posuere sed posuere porttitor
+2023-10-04 19:02:50 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text adipiscing posuere malesuada ipsum Elasticsearch dolor posuere massa ultricies
+2023-10-04 19:02:51 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text porttitor posuere ultricies lectus congue Microservices massa amet ultricies ipsum
+2023-10-04 19:02:52 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text lectus pulvinar congue purus consectetuer magna amet kafka malesuada purus amet amet Fusce adipiscing magna
+2023-10-04 19:02:53 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text pulvinar pulvinar lectus purus massa magna pulvinar Spring massa sed ultricies massa malesuada Maecenas purus
+2023-10-04 19:02:54 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sed lectus ultricies libero pulvinar consectetuer amet pulvinar Java ultricies adipiscing malesuada adipiscing amet lectus Lorem pulvinar
+2023-10-04 19:02:55 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Fusce Lorem ipsum elit sed consectetuer Spring sit congue consectetuer congue massa adipiscing
+2023-10-04 19:02:56 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Maecenas elit dolor adipiscing massa ultricies dolor ultricies kafka lectus congue sed ipsum dolor malesuada lectus
+2023-10-04 19:02:57 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text amet porttitor ipsum dolor sit massa Microservices libero Fusce sed ultricies porttitor sit
+2023-10-04 19:02:58 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Maecenas consectetuer elit lectus purus dolor Microservices purus posuere libero adipiscing posuere posuere
+2023-10-04 19:02:59 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text adipiscing elit pulvinar pulvinar Elasticsearch adipiscing malesuada dolor Lorem
+2023-10-04 19:03:00 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sed massa libero posuere sed Maecenas congue kafka ultricies amet sit elit elit ultricies ipsum
+2023-10-04 19:03:01 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text porttitor malesuada dolor Lorem pulvinar Microservices amet sit amet ipsum purus
+2023-10-04 19:03:02 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text purus porttitor pulvinar posuere sed Maecenas Elasticsearch Maecenas massa ipsum pulvinar amet
+2023-10-04 19:03:03 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text lectus pulvinar congue ultricies purus purus malesuada libero Elasticsearch Lorem massa dolor consectetuer congue purus ultricies
+2023-10-04 19:03:04 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ultricies adipiscing malesuada pulvinar Lorem congue posuere Microservices dolor dolor sed adipiscing porttitor Lorem amet
+2023-10-04 19:03:05 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text magna amet lectus adipiscing amet sed Lorem sit Elasticsearch libero Fusce Lorem elit sed porttitor Maecenas
+2023-10-04 19:03:06 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text consectetuer ipsum consectetuer Fusce ipsum libero porttitor Java ultricies porttitor ipsum malesuada libero malesuada sed
+2023-10-04 19:03:07 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text adipiscing congue Maecenas consectetuer posuere Microservices elit Lorem Fusce amet massa
+2023-10-04 19:03:08 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ipsum pulvinar adipiscing pulvinar Maecenas Microservices Lorem ipsum consectetuer Lorem purus
+2023-10-04 19:03:09 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text porttitor malesuada Lorem amet massa congue Maecenas Elasticsearch ipsum magna sit purus dolor congue dolor
+2023-10-04 19:03:10 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text porttitor Fusce sed ultricies sit Java congue consectetuer libero libero
+2023-10-04 19:03:11 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text magna sit malesuada Lorem Lorem Spring adipiscing adipiscing posuere lectus
+2023-10-04 19:03:12 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sed magna libero posuere sit Spring amet ultricies sit libero congue
+2023-10-04 19:03:13 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text pulvinar massa malesuada massa purus kafka posuere sed massa sit purus
+2023-10-04 19:03:14 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text malesuada purus Maecenas libero Lorem adipiscing kafka posuere Maecenas malesuada porttitor adipiscing
+2023-10-04 19:03:15 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text adipiscing malesuada elit Java posuere adipiscing amet
+2023-10-04 19:03:16 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text amet adipiscing ipsum Java malesuada purus pulvinar
+2023-10-04 19:03:17 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text posuere consectetuer elit porttitor pulvinar congue Fusce Spring posuere porttitor ipsum pulvinar libero lectus
+2023-10-04 19:03:18 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text adipiscing libero ipsum Spring sit congue malesuada
+2023-10-04 19:03:19 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text adipiscing pulvinar Maecenas congue posuere Java Fusce congue ultricies ipsum
+2023-10-04 19:03:20 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text dolor consectetuer Maecenas malesuada magna Fusce adipiscing sed Java adipiscing magna sit sed purus pulvinar sed posuere
+2023-10-04 19:03:21 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text congue magna ipsum ipsum Fusce sit adipiscing Fusce Spring malesuada amet posuere lectus massa adipiscing elit
+2023-10-04 19:03:22 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text congue massa pulvinar elit Lorem Maecenas Fusce libero kafka Lorem lectus posuere ipsum Lorem sed malesuada Lorem
+2023-10-04 19:03:23 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Maecenas ipsum Lorem sed malesuada congue sit Elasticsearch libero lectus amet consectetuer consectetuer lectus
+2023-10-04 19:03:24 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text posuere congue consectetuer sed ultricies kafka sed congue magna magna malesuada
+2023-10-04 19:03:25 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sed congue pulvinar massa Spring ultricies posuere Maecenas
+2023-10-04 19:03:26 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text magna lectus ultricies consectetuer posuere Maecenas congue Java amet ultricies pulvinar Lorem elit purus
+2023-10-04 19:03:27 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text amet posuere posuere pulvinar amet malesuada lectus kafka Lorem ultricies libero consectetuer massa libero
+2023-10-04 19:03:28 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sit posuere ultricies magna elit pulvinar pulvinar Java sit magna sed Fusce porttitor lectus
+2023-10-04 19:03:29 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ultricies posuere amet consectetuer Lorem libero porttitor Microservices Lorem massa lectus consectetuer Maecenas lectus
+2023-10-04 19:03:30 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text lectus adipiscing Lorem dolor Lorem dolor Elasticsearch lectus Fusce adipiscing malesuada ultricies
+2023-10-04 19:03:31 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text porttitor elit posuere Fusce pulvinar congue sed kafka dolor Maecenas libero elit consectetuer porttitor lectus
+2023-10-04 19:03:32 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Maecenas Maecenas sed sed Spring amet elit elit
+2023-10-04 19:03:33 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sit magna elit libero Spring Lorem ultricies Fusce amet
+2023-10-04 19:03:34 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text consectetuer massa Maecenas Maecenas congue Elasticsearch adipiscing adipiscing adipiscing Fusce
+2023-10-04 19:03:35 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text posuere congue magna lectus Elasticsearch consectetuer porttitor adipiscing
+2023-10-04 19:03:36 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text libero ultricies adipiscing porttitor malesuada Lorem Microservices magna magna magna adipiscing malesuada massa
+2023-10-04 19:03:37 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text malesuada pulvinar libero libero sed Microservices amet congue Fusce elit
+2023-10-04 19:03:38 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text purus porttitor porttitor sit amet Microservices Maecenas posuere congue amet
+2023-10-04 19:03:39 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sit Maecenas elit Lorem porttitor kafka pulvinar malesuada massa Fusce
+2023-10-04 19:03:40 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sit porttitor adipiscing dolor Microservices elit lectus Fusce
+2023-10-04 19:03:41 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ultricies consectetuer pulvinar magna elit dolor purus Java elit massa massa consectetuer libero massa pulvinar
+2023-10-04 19:03:42 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ultricies ultricies amet dolor consectetuer Java amet ultricies malesuada lectus
+2023-10-04 19:03:43 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text pulvinar sed congue posuere Elasticsearch congue lectus lectus
+2023-10-04 19:03:44 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text malesuada porttitor ipsum Spring pulvinar amet ultricies
+2023-10-04 19:03:45 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text dolor malesuada ipsum sed ipsum Elasticsearch elit dolor dolor dolor
+2023-10-04 19:03:46 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text libero congue Maecenas magna consectetuer Spring sed elit purus elit
+2023-10-04 19:03:47 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem pulvinar magna magna ultricies Microservices sit amet adipiscing ipsum massa
+2023-10-04 19:03:48 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ultricies ultricies pulvinar pulvinar malesuada Java posuere massa purus Maecenas
+2023-10-04 19:03:49 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text purus ultricies ipsum Microservices massa Fusce consectetuer
+2023-10-04 19:03:50 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text malesuada massa consectetuer dolor amet porttitor kafka malesuada massa Maecenas posuere sed
+2023-10-04 19:03:51 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sit Maecenas congue sit dolor Elasticsearch malesuada amet elit adipiscing pulvinar
+2023-10-04 19:03:52 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text consectetuer massa adipiscing magna lectus libero libero porttitor Microservices magna purus massa libero pulvinar pulvinar amet
+2023-10-04 19:03:53 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem ipsum purus consectetuer amet Microservices massa pulvinar ultricies ipsum
+2023-10-04 19:03:54 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sit congue Fusce porttitor Lorem kafka malesuada pulvinar congue porttitor lectus
+2023-10-04 19:03:55 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text porttitor sit adipiscing magna posuere Spring amet ultricies Maecenas consectetuer
+2023-10-04 19:03:56 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Maecenas malesuada massa sit amet Elasticsearch dolor Maecenas massa sit
+2023-10-04 19:03:57 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sed amet ipsum pulvinar libero Spring amet posuere amet adipiscing
+2023-10-04 19:03:58 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sed posuere posuere adipiscing Microservices posuere sit sit congue
+2023-10-04 19:03:59 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text porttitor pulvinar ultricies purus dolor Java Maecenas ipsum congue Fusce magna
+2023-10-04 19:04:00 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text lectus sed porttitor magna ultricies Elasticsearch amet ultricies Fusce dolor congue
+2023-10-04 19:04:01 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text congue magna posuere lectus kafka adipiscing ultricies Fusce consectetuer
+2023-10-04 19:04:02 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ultricies lectus Lorem porttitor Spring porttitor posuere magna magna
+2023-10-04 19:04:03 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text magna sit Fusce amet malesuada pulvinar elit sed Java purus amet purus malesuada dolor dolor lectus sed
+2023-10-04 19:04:04 [pool-2-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text elit adipiscing congue dolor magna Fusce elit Maecenas Java pulvinar sit Maecenas purus posuere magna Maecenas
+2023-10-04 23:20:27 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 27108 (/Users/nithinatturu/Desktop/Micro-Services/microservices-nithin/twitter-to-kafka-service/target/classes started by nithinatturu in /Users/nithinatturu/Desktop/Micro-Services/microservices-nithin)
+2023-10-04 23:20:27 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-04 23:20:28 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+2023-10-04 23:20:28 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-04 23:20:28 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:261)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:592)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.microservices.nithin.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:32)
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:61)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1791)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	... 15 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 common frames omitted
+2023-10-04 23:23:12 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 27159 (/Users/nithinatturu/Desktop/Micro-Services/microservices-nithin/twitter-to-kafka-service/target/classes started by nithinatturu in /Users/nithinatturu/Desktop/Micro-Services/microservices-nithin)
+2023-10-04 23:23:12 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-04 23:23:13 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+2023-10-04 23:23:13 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-04 23:23:13 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:261)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:592)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.microservices.nithin.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:32)
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:61)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1791)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	... 15 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 common frames omitted
+2023-10-04 23:26:25 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 27261 (/Users/nithinatturu/Desktop/Micro-Services/microservices-nithin/twitter-to-kafka-service/target/classes started by nithinatturu in /Users/nithinatturu/Desktop/Micro-Services/microservices-nithin)
+2023-10-04 23:26:25 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-04 23:26:25 [main] WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+2023-10-04 23:26:25 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-04 23:26:25 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': org/aspectj/lang/annotation/Pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:261)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:592)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.microservices.nithin.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:32)
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:61)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1791)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1758)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	... 15 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 21 common frames omitted
