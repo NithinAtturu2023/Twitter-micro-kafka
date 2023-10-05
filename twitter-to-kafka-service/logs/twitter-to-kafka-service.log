@@ -1048,3 +1048,749 @@ Caused by: com.microservices.nithin.kafka.admin.config.exception.KafkaClientExce
 2023-10-05 01:01:57 [main] INFO  c.m.n.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, kafka, Elasticsearch]
 2023-10-05 01:01:57 [pool-4-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text congue sed dolor dolor malesuada sed Elasticsearch elit massa magna Maecenas massa to kafka topic twitter-topic
 2023-10-05 01:01:57 [pool-4-thread-1] INFO  c.m.n.k.p.c.s.i.TwitterKafkaProducer - Sending message='{"userId": 1341737829398718016, "id": 842017763169856845, "text": "congue sed dolor dolor malesuada sed Elasticsearch elit massa magna Maecenas massa", "createdAt": 1696485717000}'  to topic= 'twitter-topic'
+2023-10-05 01:06:56 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2023-10-05 01:11:56 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:16:56 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:17:17 [SpringApplicationShutdownHook] INFO  c.m.n.k.p.c.s.i.TwitterKafkaProducer - Closing kafka producer
+2023-10-05 01:17:17 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2023-10-05 01:17:17 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2023-10-05 01:17:17 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-10-05 01:17:17 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2023-10-05 01:17:21 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 30161 (/Users/nithinatturu/Desktop/Micro-Services/microservices-nithin/twitter-to-kafka-service/target/classes started by nithinatturu in /Users/nithinatturu/Desktop/Micro-Services/microservices-nithin)
+2023-10-05 01:17:21 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-05 01:17:22 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2023-10-05 01:17:22 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.4.1
+2023-10-05 01:17:22 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8a516edc2755df89
+2023-10-05 01:17:22 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1696486642547
+2023-10-05 01:17:22 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080
+2023-10-05 01:17:22 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.455 seconds (process running for 2.152)
+2023-10-05 01:17:22 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Application Started
+2023-10-05 01:17:23 [main] INFO  c.m.n.k.a.c.clients.KafkaAdminClient - creating 1 topics(s), attempt 0
+2023-10-05 01:17:23 [main] INFO  c.m.n.k.a.c.clients.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2023-10-05 01:17:23 [main] ERROR i.n.r.d.DnsServerAddressStreamProviders - Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2023-10-05 01:17:23 [main] INFO  c.m.n.t.t.k.s.i.i.KafkaStreamInitializer - Topics With names are ready for operations!
+2023-10-05 01:17:23 [main] INFO  c.m.n.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, kafka, Elasticsearch]
+2023-10-05 01:17:23 [pool-4-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Maecenas magna pulvinar porttitor congue adipiscing lectus ultricies Spring adipiscing Maecenas sit consectetuer libero ipsum congue to kafka topic twitter-topic
+2023-10-05 01:17:23 [pool-4-thread-1] INFO  c.m.n.k.p.c.s.i.TwitterKafkaProducer - Sending message='{"userId": 4202895087267952658, "id": 4857315035613355398, "text": "Maecenas magna pulvinar porttitor congue adipiscing lectus ultricies Spring adipiscing Maecenas sit consectetuer libero ipsum congue", "createdAt": 1696486643000}'  to topic= 'twitter-topic'
+2023-10-05 01:18:07 [SpringApplicationShutdownHook] INFO  c.m.n.k.p.c.s.i.TwitterKafkaProducer - Closing kafka producer
+2023-10-05 01:18:07 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2023-10-05 01:18:07 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2023-10-05 01:18:07 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-10-05 01:18:07 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2023-10-05 01:18:11 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 30196 (/Users/nithinatturu/Desktop/Micro-Services/microservices-nithin/twitter-to-kafka-service/target/classes started by nithinatturu in /Users/nithinatturu/Desktop/Micro-Services/microservices-nithin)
+2023-10-05 01:18:11 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-05 01:18:12 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2023-10-05 01:18:12 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.4.1
+2023-10-05 01:18:12 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8a516edc2755df89
+2023-10-05 01:18:12 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1696486692388
+2023-10-05 01:18:12 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080
+2023-10-05 01:18:12 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.459 seconds (process running for 2.423)
+2023-10-05 01:18:12 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Application Started
+2023-10-05 01:18:12 [main] INFO  c.m.n.k.a.c.clients.KafkaAdminClient - creating 1 topics(s), attempt 0
+2023-10-05 01:18:12 [main] INFO  c.m.n.k.a.c.clients.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2023-10-05 01:18:12 [main] ERROR i.n.r.d.DnsServerAddressStreamProviders - Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2023-10-05 01:18:13 [main] INFO  c.m.n.t.t.k.s.i.i.KafkaStreamInitializer - Topics With names are ready for operations!
+2023-10-05 01:18:13 [main] INFO  c.m.n.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, kafka, Elasticsearch]
+2023-10-05 01:18:13 [pool-4-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text congue massa sed pulvinar posuere Lorem amet Spring Fusce porttitor pulvinar lectus consectetuer elit malesuada to kafka topic twitter-topic
+2023-10-05 01:18:13 [pool-4-thread-1] INFO  c.m.n.k.p.c.s.i.TwitterKafkaProducer - Sending message='{"userId": 4433461628821934237, "id": 774751448145270478, "text": "congue massa sed pulvinar posuere Lorem amet Spring Fusce porttitor pulvinar lectus consectetuer elit malesuada", "createdAt": 1696486693000}'  to topic= 'twitter-topic'
+2023-10-05 01:18:23 [SpringApplicationShutdownHook] INFO  c.m.n.k.p.c.s.i.TwitterKafkaProducer - Closing kafka producer
+2023-10-05 01:18:23 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2023-10-05 01:18:23 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2023-10-05 01:18:23 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-10-05 01:18:23 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2023-10-05 01:18:27 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 30211 (/Users/nithinatturu/Desktop/Micro-Services/microservices-nithin/twitter-to-kafka-service/target/classes started by nithinatturu in /Users/nithinatturu/Desktop/Micro-Services/microservices-nithin)
+2023-10-05 01:18:27 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-05 01:18:27 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2023-10-05 01:18:27 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.4.1
+2023-10-05 01:18:27 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8a516edc2755df89
+2023-10-05 01:18:27 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1696486707997
+2023-10-05 01:18:28 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080
+2023-10-05 01:18:28 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.606 seconds (process running for 2.254)
+2023-10-05 01:18:28 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Application Started
+2023-10-05 01:18:28 [main] INFO  c.m.n.k.a.c.clients.KafkaAdminClient - creating 1 topics(s), attempt 0
+2023-10-05 01:18:28 [main] INFO  c.m.n.k.a.c.clients.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2023-10-05 01:18:28 [main] ERROR i.n.r.d.DnsServerAddressStreamProviders - Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2023-10-05 01:18:28 [main] INFO  c.m.n.t.t.k.s.i.i.KafkaStreamInitializer - Topics With names are ready for operations!
+2023-10-05 01:18:28 [main] INFO  c.m.n.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, kafka, Elasticsearch]
+2023-10-05 01:18:28 [pool-4-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text purus posuere Maecenas magna dolor Java posuere massa Fusce Maecenas to kafka topic twitter-topic
+2023-10-05 01:18:28 [pool-4-thread-1] INFO  c.m.n.k.p.c.s.i.TwitterKafkaProducer - Sending message='{"userId": 5714188016326683157, "id": 1673138721948138238, "text": "purus posuere Maecenas magna dolor Java posuere massa Fusce Maecenas", "createdAt": 1696486708000}'  to topic= 'twitter-topic'
+2023-10-05 01:23:28 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2023-10-05 01:25:14 [SpringApplicationShutdownHook] INFO  c.m.n.k.p.c.s.i.TwitterKafkaProducer - Closing kafka producer
+2023-10-05 01:25:15 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2023-10-05 01:25:15 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2023-10-05 01:25:15 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-10-05 01:25:15 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2023-10-05 01:25:19 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 30452 (/Users/nithinatturu/Desktop/Micro-Services/microservices-nithin/twitter-to-kafka-service/target/classes started by nithinatturu in /Users/nithinatturu/Desktop/Micro-Services/microservices-nithin)
+2023-10-05 01:25:19 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-05 01:25:20 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2023-10-05 01:25:20 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.4.1
+2023-10-05 01:25:20 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8a516edc2755df89
+2023-10-05 01:25:20 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1696487120451
+2023-10-05 01:25:20 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080
+2023-10-05 01:25:20 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.638 seconds (process running for 2.433)
+2023-10-05 01:25:20 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Application Started
+2023-10-05 01:25:20 [main] INFO  c.m.n.k.a.c.clients.KafkaAdminClient - creating 1 topics(s), attempt 0
+2023-10-05 01:25:20 [main] INFO  c.m.n.k.a.c.clients.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2023-10-05 01:25:21 [main] ERROR i.n.r.d.DnsServerAddressStreamProviders - Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2023-10-05 01:25:21 [main] INFO  c.m.n.t.t.k.s.i.i.KafkaStreamInitializer - Topics With names are ready for operations!
+2023-10-05 01:25:21 [main] INFO  c.m.n.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, kafka, Elasticsearch]
+2023-10-05 01:25:21 [pool-4-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text magna purus malesuada libero magna sed elit Java purus porttitor sit ipsum magna Fusce libero to kafka topic twitter-topic
+2023-10-05 01:25:21 [pool-4-thread-1] INFO  c.m.n.k.p.c.s.i.TwitterKafkaProducer - Sending message='{"userId": 3295476284101296143, "id": 1150247805095840548, "text": "magna purus malesuada libero magna sed elit Java purus porttitor sit ipsum magna Fusce libero", "createdAt": 1696487121000}'  to topic= 'twitter-topic'
+2023-10-05 01:28:03 [SpringApplicationShutdownHook] INFO  c.m.n.k.p.c.s.i.TwitterKafkaProducer - Closing kafka producer
+2023-10-05 01:28:03 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2023-10-05 01:28:03 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2023-10-05 01:28:03 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-10-05 01:28:03 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2023-10-05 01:28:08 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 30544 (/Users/nithinatturu/Desktop/Micro-Services/microservices-nithin/twitter-to-kafka-service/target/classes started by nithinatturu in /Users/nithinatturu/Desktop/Micro-Services/microservices-nithin)
+2023-10-05 01:28:08 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-05 01:28:09 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2023-10-05 01:28:09 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.4.1
+2023-10-05 01:28:09 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8a516edc2755df89
+2023-10-05 01:28:09 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1696487289442
+2023-10-05 01:28:09 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080
+2023-10-05 01:28:09 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.831 seconds (process running for 2.73)
+2023-10-05 01:28:09 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Application Started
+2023-10-05 01:28:09 [main] INFO  c.m.n.k.a.c.clients.KafkaAdminClient - creating 1 topics(s), attempt 0
+2023-10-05 01:28:09 [main] INFO  c.m.n.k.a.c.clients.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2023-10-05 01:28:10 [main] ERROR i.n.r.d.DnsServerAddressStreamProviders - Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2023-10-05 01:28:10 [main] INFO  c.m.n.t.t.k.s.i.i.KafkaStreamInitializer - Topics With names are ready for operations!
+2023-10-05 01:28:10 [main] INFO  c.m.n.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, kafka, Elasticsearch]
+2023-10-05 01:28:10 [pool-4-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text porttitor Lorem sed ultricies amet massa massa kafka massa Lorem congue ultricies elit ultricies to kafka topic twitter-topic
+2023-10-05 01:28:10 [pool-4-thread-1] INFO  c.m.n.k.p.c.s.i.TwitterKafkaProducer - Sending message='{"userId": 5508658929669383288, "id": 6005622724208949599, "text": "porttitor Lorem sed ultricies amet massa massa kafka massa Lorem congue ultricies elit ultricies", "createdAt": 1696487290000}'  to topic= 'twitter-topic'
+2023-10-05 01:33:09 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -2 disconnected.
+2023-10-05 01:33:18 [SpringApplicationShutdownHook] INFO  c.m.n.k.p.c.s.i.TwitterKafkaProducer - Closing kafka producer
+2023-10-05 01:33:18 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2023-10-05 01:33:18 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2023-10-05 01:33:18 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-10-05 01:33:18 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2023-10-05 01:33:20 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 20.0.1 with PID 30735 (/Users/nithinatturu/Desktop/Micro-Services/microservices-nithin/twitter-to-kafka-service/target/classes started by nithinatturu in /Users/nithinatturu/Desktop/Micro-Services/microservices-nithin)
+2023-10-05 01:33:20 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-05 01:33:20 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:19092, localhost:29092, localhost:39092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2023-10-05 01:33:20 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.4.1
+2023-10-05 01:33:20 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 8a516edc2755df89
+2023-10-05 01:33:20 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1696487600980
+2023-10-05 01:33:21 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080
+2023-10-05 01:33:21 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.552 seconds (process running for 2.32)
+2023-10-05 01:33:21 [main] INFO  c.m.n.t.t.k.s.TwitterToKafkaServiceApplication - Application Started
+2023-10-05 01:33:21 [main] INFO  c.m.n.k.a.c.clients.KafkaAdminClient - creating 1 topics(s), attempt 0
+2023-10-05 01:33:21 [main] INFO  c.m.n.k.a.c.clients.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2023-10-05 01:33:21 [main] ERROR i.n.r.d.DnsServerAddressStreamProviders - Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2023-10-05 01:33:21 [main] INFO  c.m.n.t.t.k.s.i.i.KafkaStreamInitializer - Topics With names are ready for operations!
+2023-10-05 01:33:21 [main] INFO  c.m.n.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, kafka, Elasticsearch]
+2023-10-05 01:33:21 [pool-4-thread-1] INFO  c.m.n.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text consectetuer Lorem magna Lorem kafka Fusce massa Fusce to kafka topic twitter-topic
+2023-10-05 01:33:21 [pool-4-thread-1] INFO  c.m.n.k.p.c.s.i.TwitterKafkaProducer - Sending message='{"userId": 4078370236545940415, "id": 6863747576623299639, "text": "consectetuer Lorem magna Lorem kafka Fusce massa Fusce", "createdAt": 1696487601000}'  to topic= 'twitter-topic'
+2023-10-05 01:37:13 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node -3 disconnected.
+2023-10-05 01:37:13 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:22 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:22 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:22 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:22 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:22 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:22 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:22 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Cancelled in-flight API_VERSIONS request with correlation id 8 due to node 1 being disconnected (elapsed time since creation: 6ms, elapsed time since send: 6ms, request timeout: 3600000ms)
+2023-10-05 01:37:22 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:22 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:22 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:22 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:22 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:22 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Cancelled in-flight API_VERSIONS request with correlation id 9 due to node 1 being disconnected (elapsed time since creation: 12ms, elapsed time since send: 12ms, request timeout: 3600000ms)
+2023-10-05 01:37:22 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:22 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:23 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:23 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:23 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:23 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:23 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:23 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:23 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:23 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:23 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:23 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:23 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:23 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:24 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:24 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:24 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:24 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:24 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:24 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:25 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:25 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:25 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:25 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:25 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:25 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:26 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:26 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:26 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:26 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:26 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:26 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:27 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:27 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:27 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:27 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:27 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:27 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:28 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:28 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:28 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:28 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:28 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:28 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:29 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:29 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:29 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:29 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:29 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:29 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:30 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:30 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:30 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:30 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:30 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:30 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:31 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:31 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:31 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:31 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:31 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:31 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:32 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:32 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:32 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:32 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:32 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:32 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:33 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:33 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:33 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:33 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:33 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:33 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:34 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:34 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:35 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:35 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:35 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:35 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:35 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:35 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:36 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:36 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:36 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:36 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:36 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:36 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:37 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:37 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:37 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:37 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:37 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:37 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:38 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:38 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:38 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:38 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:38 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:38 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:39 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:39 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:39 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:39 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:39 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:39 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:40 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:40 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:40 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:40 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:40 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:40 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:41 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:41 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:41 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:41 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:42 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:42 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:42 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:42 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:43 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:43 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:43 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:43 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:43 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:43 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:44 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:44 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:44 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:44 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:45 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:45 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:45 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:45 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:45 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:45 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:46 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:46 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:46 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:46 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:46 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:46 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:47 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:47 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:47 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:47 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:47 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:47 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:48 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:48 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:48 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:48 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:48 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:48 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:49 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:49 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:49 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:49 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:50 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:50 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:50 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:51 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:51 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:51 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:51 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:51 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2023-10-05 01:37:51 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 1 (localhost/127.0.0.1:19092) could not be established. Broker may not be available.
+2023-10-05 01:37:52 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 3 disconnected.
+2023-10-05 01:37:52 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 3 (localhost/127.0.0.1:39092) could not be established. Broker may not be available.
+2023-10-05 01:37:52 [kafka-admin-client-thread | adminclient-1] INFO  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Node 2 disconnected.
+2023-10-05 01:37:52 [kafka-admin-client-thread | adminclient-1] WARN  o.apache.kafka.clients.NetworkClient - [AdminClient clientId=adminclient-1] Connection to node 2 (localhost/127.0.0.1:29092) could not be established. Broker may not be available.
+2023-10-05 01:37:52 [kafka-admin-client-thread | adminclient-1] INFO  o.a.k.c.a.i.AdminMetadataManager - [AdminClient clientId=adminclient-1] Metadata update failed
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting for a node assignment. Call: fetchMetadata
