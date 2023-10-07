@@ -28,15 +28,18 @@ public class KafkaProducerConfig<K extends Serializable,V extends SpecificRecord
 
 
     @Bean
-    public Map<String, Object>produceConfig(){
+    public Map<String, Object> produceConfig(){
         Map<String, Object> props=new HashMap<>();
         props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,kafkaConfigData.getBootStrapServers());
         props.put(kafkaConfigData.getSchemaRegistryUrlKey(),kafkaConfigData.getSchemaRegistryUrl());
         props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG,kafkaProducerConfigData.getKeySerializerClass());
-        props.put(ProducerConfig.BATCH_SIZE_CONFIG,kafkaProducerConfigData.getBatchSize()*kafkaProducerConfigData.getBatchSize());
+        props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG,kafkaProducerConfigData.getValueSerializerClass());
+        props.put(ProducerConfig.BATCH_SIZE_CONFIG,kafkaProducerConfigData.getBatchSize()*kafkaProducerConfigData.getBatchSizeBoostFactor());
         props.put(ProducerConfig.LINGER_MS_CONFIG,kafkaProducerConfigData.getLingerMs());
         props.put(ProducerConfig.COMPRESSION_TYPE_CONFIG,kafkaProducerConfigData.getCompressionType());
         props.put(ProducerConfig.ACKS_CONFIG,kafkaProducerConfigData.getAcks());
+        props.put(ProducerConfig.REQUEST_TIMEOUT_MS_CONFIG, kafkaProducerConfigData.getRequestTimeoutMs());
+        props.put(ProducerConfig.RETRIES_CONFIG, kafkaProducerConfigData.getRetryCount());
         return props;
     }
 
